@@ -7,6 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 
 //可销毁代币
 contract ERC20WithBurnable is ERC20, ERC20Detailed, ERC20Burnable {
+    //构造函数
     constructor(
         string memory name, //代币名称
         string memory symbol, //代币缩写
